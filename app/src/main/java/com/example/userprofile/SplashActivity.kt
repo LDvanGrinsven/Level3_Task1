@@ -9,7 +9,7 @@ class SplashActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.SplashActivity)
+        setContentView(R.layout.activity_splash)
 
         // Use Handler to wait 1 second before opening the CreateProfileActivity.
         Handler().postDelayed({
